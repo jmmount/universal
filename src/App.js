@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar.js';
+import Home from './pages/Home.jsx';
 //import './App.css';
 
 /*function App() {
@@ -23,7 +23,7 @@ import Navbar from './components/Navbar.js';
 }*/
 
 function App() {
-  return <Navbar/>
+  return <Home/>
 };
 
 export default App;

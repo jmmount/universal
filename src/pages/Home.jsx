@@ -6,10 +6,8 @@ import Footer from "../components/Footer.jsx";
 function Home() {
   return (
     <>
-      <Navbar />
       <TwoCards />
       <QuoteCard />
-      <Footer />
     </>
   );
 }

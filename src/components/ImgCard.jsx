@@ -1,4 +1,4 @@
-import NavigateButton from "./NavigateButton";
+import NavigateButton from "../routes/NavigateButton";
 
 const ImgCard = ({ image, title, body, to, buttonText }) => {
   return (

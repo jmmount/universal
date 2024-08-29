@@ -1,13 +1,10 @@
-import Navbar from "../components/Navbar";
 import PageHead from "../components/PageHead";
 import ImgCard from "../components/ImgCard";
 import SignUpCard from "../components/SignUpCard";
-import Footer from "../components/Footer";
 
 const Course = ({ image, title, body, to, buttonText }) => {
     return (
         <div className="course-page">
-            <Navbar/>
             <PageHead
             title={title}
             body={body}
@@ -34,7 +31,7 @@ const Course = ({ image, title, body, to, buttonText }) => {
                 buttonText={buttonText}
         />
             <SignUpCard/>
-            <Footer/>
+            
         </div>
     );
 }

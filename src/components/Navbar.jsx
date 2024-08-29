@@ -22,13 +22,13 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/signup/">
-                Sign Up
+              <NavLink className="nav-link active" to="/about/">
+                About
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/about/">
-                About
+              <NavLink className="nav-link active" to="/course/">
+                Courses
               </NavLink>
             </li>
             <li className="nav-item dropdown">
@@ -39,7 +39,7 @@ function Navbar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                About
+                Disabled
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>

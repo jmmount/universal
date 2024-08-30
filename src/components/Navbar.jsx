@@ -28,7 +28,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link active" to="/course/">
-                Courses
+                SignUp
               </NavLink>
             </li>
             <li className="nav-item dropdown">
@@ -39,17 +39,17 @@ function Navbar() {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Disabled
+                Courses
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <NavLink className="dropdown-item" to="/about/history">
-                    History
+                  <NavLink className="dropdown-item" to="/grammar/">
+                    Grammar
                   </NavLink>
                 </li>
                 <li>
                   <NavLink className="dropdown-item" to="/about/team">
-                    Team
+                    Self Study
                   </NavLink>
                 </li>
               </ul>

@@ -1,6 +1,6 @@
 const QuoteCard = ({ quoteText, author, source }) => {
   return (
-    <div className="card" style={{ textAlign: 'right'}}>
+    <div className="card" style={{ textAlign: 'left'}}>
       <div className="card-header">Quote</div>
       <div className="card-body">
         <blockquote className="blockquote mb-0">

@@ -27,19 +27,19 @@ function Home() {
           image="/logo192.png"
           title="Grammar"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          to=""
+          to="/grammar/"
           buttonText="Learn More"
         />
         <ImgCard
           image="/logo192.png"
           title="Self-Study Course"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          to=""
+          to="/self-study"
           buttonText="Learn More"
         />
         <ImgCard
           image="/logo192.png"
-          title="Progress Tracking"
+          title="For Teachers"
           body="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           to=""
           buttonText="Learn More"

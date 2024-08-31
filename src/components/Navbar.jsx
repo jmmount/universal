@@ -48,7 +48,7 @@ function Navbar() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/about/team">
+                  <NavLink className="dropdown-item" to="/self-study">
                     Self Study
                   </NavLink>
                 </li>

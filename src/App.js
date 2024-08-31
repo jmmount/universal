@@ -7,10 +7,12 @@ import SelfStudyPage from './pages/SelfStudyPage.jsx';
 import SignUp from './pages/SignUp.jsx';
 import Login from './pages/Login.jsx';
 import Footer from './components/Footer.jsx';
+import ScrollToTop from './hooks/ScrollToTop.js';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />

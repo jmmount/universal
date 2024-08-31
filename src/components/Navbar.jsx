@@ -21,17 +21,7 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <NavLink className="nav-link active" to="/about/">
-                About
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link active" to="/course/">
-                SignUp
-              </NavLink>
-            </li>
-            <li className="nav-item dropdown">
+          <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 id="navbarDropdown"
@@ -54,6 +44,13 @@ function Navbar() {
                 </li>
               </ul>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link active" to="/course/">
+                SignUp
+              </NavLink>
+            </li>
+
+           
 
             <li className="nav-item">
               <a className="nav-link disabled" aria-disabled="true">

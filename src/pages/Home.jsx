@@ -7,7 +7,7 @@ function Home() {
     <>
       <div class="container">
         <h1 class="display-1">
-          Summon the universe.
+          Summon the universe. 
           <small class="text-body-secondary">
             Join the over 1.35 billion people around the world that use the
             English language for communication, businesss, and self-expression.{" "}
@@ -22,7 +22,7 @@ function Home() {
         />
       </div>
       <div class="container">
-      <h2 class="display-2 text-center">Choose how you want to learn.</h2>
+      <h3 class="display-2 text-center">Choose how you want to learn.</h3>
         <ImgCard
           image="/logo192.png"
           title="Grammar"

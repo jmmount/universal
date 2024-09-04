@@ -8,6 +8,7 @@ import SignUp from './pages/SignUp.jsx';
 import Login from './pages/Login.jsx';
 import Footer from './components/Footer.jsx';
 import ScrollToTop from './hooks/ScrollToTop.js';
+import PracticeAPI from './pages/PracticeAPI.jsx';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/self-study" element={<SelfStudyPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup/" element={<SignUp />} />
+        <Route path="/api/" element={<PracticeAPI />} />
       </Routes>
       <Footer/>
     </Router>

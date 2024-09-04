@@ -5,24 +5,24 @@ import SignUpCard from "../components/SignUpCard.jsx";
 function Home() {
   return (
     <>
-      <div class="container">
-        <h1 class="display-1">
+      <div className="container">
+        <h1 className="display-1">
           Summon the universe. 
-          <small class="text-body-secondary">
+          <small className="text-body-secondary">
             Join the over 1.35 billion people around the world that use the
             English language for communication, businesss, and self-expression.{" "}
           </small>
         </h1>
       </div>
-      <div class="container">
+      <div className="container">
         <QuoteCard
           quoteText="The limits of my language mean the limits of my world."
           author="Ludwig Wittgenstein"
           source="Tractatus logigo-philosphicus, 1922"
         />
       </div>
-      <div class="container">
-      <h3 class="display-2 text-center">Choose how you want to learn.</h3>
+      <div className="container">
+      <h3 className="display-2 text-center">Choose how you want to learn.</h3>
         <ImgCard
           image="/logo192.png"
           title="Grammar"

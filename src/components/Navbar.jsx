@@ -45,7 +45,7 @@ function Navbar() {
               </ul>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link active" to="/course/">
+              <NavLink className="nav-link active" to="/signup/">
                 SignUp
               </NavLink>
             </li>
@@ -59,9 +59,11 @@ function Navbar() {
             </li>
           </ul>
           <form className="d-flex" role="login">
-            <NavigateButton className="btn btn-outline-success" to="/login">
-              Login
-            </NavigateButton>
+            <NavigateButton 
+              className="btn btn-outline-success" 
+              to="/login"
+              buttonText="Login"
+            />
           </form>
         </div>
       </div>

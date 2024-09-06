@@ -1,3 +1,5 @@
+import NavigateButton from "../routes/NavigateButton";
+
 function Login() {
   return (
     <div className="d-flex justify-content-center">
@@ -35,9 +37,11 @@ function Login() {
               Remember me
             </label>
           </div>
-          <button type="submit" className="btn btn-primary">
-            Login
-          </button>
+          <NavigateButton
+              className="btn btn-outline-success mt-3"
+              to="/login/"
+              buttonText="Log in"
+            />
         </form>
       </div>
     </div>

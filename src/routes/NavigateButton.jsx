@@ -1,6 +1,6 @@
 import {useNavigate} from 'react-router-dom';
 
-function NavigateButton ({to, children, ...props}) {
+function NavigateButton ({to, buttonText, ...props}) {
     const navigate = useNavigate();
 
     const handleClick = (e) => {
@@ -11,7 +11,7 @@ function NavigateButton ({to, children, ...props}) {
 
     return (
         <button {...props} onClick={handleClick}>
-            {children}
+            {buttonText}
         </button>
     );
 }

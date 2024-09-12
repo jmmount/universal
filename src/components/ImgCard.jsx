@@ -12,9 +12,7 @@ const ImgCard = ({ image, title, body, to, buttonText }) => {
             <div className="card-body">
               <h5 className="card-title">{title}</h5>
               <p className="card-text">{body}</p>
-              <NavigateButton className="btn btn-outline-success" to={to}>
-                {buttonText}
-              </NavigateButton>
+              <NavigateButton className="btn btn-outline-success" to={to} buttonText={buttonText}/>
             </div>
           </div>
         </div>

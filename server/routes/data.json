@@ -1,7 +1,7 @@
 {
     "users": [
-        { "id": 1, "name": "John Doe", "email": "john@example.com" },
-        { "id": 2, "name": "Jane Doe", "email": "jane@example.com" },
-        { "id": 3, "name": "Chompie", "email": "chomprocket@example.com" }
+        { "id": 1, "name": "John Doe", "email": "john@example.com", "password": "12345" },
+        { "id": 2, "name": "Jane Doe", "email": "jane@example.com", "password": "12345" },
+        { "id": 3, "name": "Chompie", "email": "chomprocket@example.com", "password": "raisin" }
     ]
 }
